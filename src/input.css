@@ -12,3 +12,27 @@
   display: grid;
   grid-template-columns: 1fr 5fr;
 }
+
+thead {
+  text-align: left !important;
+}
+thead th {
+  width: 400px;
+}
+th,
+td {
+  padding: 16px 24px;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 2px solid black;
+}
+
+tbody img {
+  margin-right: 10px;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
